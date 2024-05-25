@@ -14,7 +14,7 @@ const frameMetadata = getFrameMetadata({
     },
   ],
   image: {
-    src: `${NEXT_PUBLIC_URL}/frame_intro.png`,
+    src: `${NEXT_PUBLIC_URL}/park-2.png`,
     aspectRatio: '1:1',
   },
   postUrl: `${NEXT_PUBLIC_URL}/api/frame`,
@@ -26,7 +26,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: 'zizzamia.xyz',
     description: 'LFG',
-    images: [`${NEXT_PUBLIC_URL}/frame_intro.png`],
+    images: [`${NEXT_PUBLIC_URL}/park-2.png`],
   },
   other: {
     ...frameMetadata,
